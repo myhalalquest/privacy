@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syarat & Ketentuan - myHalalQuest</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    h1 { color: #0A3D1F; border-bottom: 2px solid #F7DC6F; padding-bottom: 10px; }
+    h2 { color: #145A32; margin-top: 32px; }
+    .last-updated { color: #666; font-size: 0.9em; margin-bottom: 32px; }
+    a { color: #1E7B44; }
+    footer { margin-top: 48px; color: #888; font-size: 0.85em; border-top: 1px solid #eee; padding-top: 16px; }
+  </style>
+</head>
+<body>
+
+<h1>Syarat &amp; Ketentuan</h1>
+<p class="last-updated">Terakhir diperbarui: Maret 2026</p>
+
+<p>Dengan mengunduh atau menggunakan aplikasi myHalalQuest, Anda menyetujui syarat dan ketentuan berikut. Harap baca dengan seksama sebelum menggunakan aplikasi.</p>
+
+<h2>1. Penerimaan Syarat</h2>
+<p>Dengan mengakses dan menggunakan myHalalQuest, Anda menyatakan telah membaca, memahami, dan menyetujui untuk terikat oleh syarat dan ketentuan ini. Jika Anda tidak menyetujui, harap berhenti menggunakan aplikasi.</p>
+
+<h2>2. Deskripsi Layanan</h2>
+<p>myHalalQuest adalah aplikasi panduan hidup halal yang menyediakan fitur-fitur berikut:</p>
+<ul>
+  <li><strong>Pencarian Masjid:</strong> Menemukan masjid terdekat berdasarkan lokasi pengguna</li>
+  <li><strong>Jadwal Shalat:</strong> Menampilkan waktu shalat harian sesuai lokasi</li>
+  <li><strong>Arah Kiblat:</strong> Menunjukkan arah kiblat menggunakan sensor kompas perangkat</li>
+  <li><strong>Kuliner Halal:</strong> Menemukan restoran dan tempat makan halal terdekat</li>
+  <li><strong>Hotel Halal:</strong> Menemukan akomodasi ramah muslim terdekat</li>
+  <li><strong>Destinasi Islami:</strong> Menemukan tempat wisata dan destinasi Islami terdekat</li>
+  <li><strong>Tasbih Digital:</strong> Alat dzikir digital dengan pengingat haptic</li>
+  <li><strong>Notifikasi Waktu Shalat:</strong> Pengingat waktu shalat secara lokal di perangkat</li>
+</ul>
+
+<h2>3. Akurasi Informasi</h2>
+<p>myHalalQuest menggunakan data dari sumber pihak ketiga (OpenStreetMap, AlAdhan API, dan lainnya). Kami tidak menjamin keakuratan, kelengkapan, atau kebaruan informasi yang ditampilkan. Pengguna disarankan untuk:</p>
+<ul>
+  <li>Memverifikasi status halal suatu tempat secara langsung sebelum mengunjungi</li>
+  <li>Mengkonfirmasi waktu shalat dengan sumber terpercaya setempat jika diperlukan</li>
+  <li>Tidak menjadikan arah kiblat di aplikasi sebagai satu-satunya acuan tanpa verifikasi</li>
+</ul>
+
+<h2>4. Notifikasi</h2>
+<p>Aplikasi dapat mengirimkan notifikasi pengingat waktu shalat. Notifikasi ini diproses sepenuhnya secara lokal di perangkat Anda dan tidak melibatkan pengiriman data ke server eksternal. Anda dapat mengatur atau menonaktifkan notifikasi kapan saja melalui pengaturan perangkat.</p>
+
+<h2>5. Iklan</h2>
+<p>Aplikasi ini didukung oleh iklan dari jaringan pihak ketiga (Google AdMob, Meta Audience Network, AppLovin). Kami tidak bertanggung jawab atas konten iklan yang ditampilkan oleh jaringan iklan tersebut. Kami berusaha memfilter iklan yang tidak sesuai dengan nilai-nilai Islami namun tidak dapat menjamin sepenuhnya.</p>
+
+<h2>6. Izin Perangkat</h2>
+<p>Aplikasi memerlukan izin berikut untuk berfungsi dengan baik:</p>
+<ul>
+  <li><strong>Lokasi:</strong> Wajib untuk fitur pencarian tempat terdekat, waktu shalat, dan arah kiblat</li>
+  <li><strong>Notifikasi:</strong> Opsional, untuk pengingat waktu shalat</li>
+  <li><strong>Getaran (Vibrate):</strong> Untuk haptic feedback pada fitur tasbih digital</li>
+</ul>
+
+<h2>7. Batasan Tanggung Jawab</h2>
+<p>myHalalQuest tidak bertanggung jawab atas:</p>
+<ul>
+  <li>Kerugian yang timbul akibat ketidakakuratan data lokasi atau waktu shalat</li>
+  <li>Gangguan layanan akibat masalah koneksi internet atau server pihak ketiga</li>
+  <li>Keputusan pengguna yang diambil berdasarkan informasi dalam aplikasi</li>
+</ul>
+
+<h2>8. Kekayaan Intelektual</h2>
+<p>Seluruh konten, desain, logo, dan kode dalam aplikasi myHalalQuest adalah milik pengembang dan dilindungi oleh hukum kekayaan intelektual. Dilarang menyalin, memodifikasi, atau mendistribusikan tanpa izin tertulis.</p>
+
+<h2>9. Perubahan Syarat</h2>
+<p>Kami berhak memperbarui syarat dan ketentuan ini sewaktu-waktu. Perubahan akan diberitahukan melalui pembaruan aplikasi. Penggunaan aplikasi secara berkelanjutan setelah perubahan berarti Anda menyetujui syarat yang diperbarui.</p>
+
+<h2>10. Hukum yang Berlaku</h2>
+<p>Syarat dan ketentuan ini diatur oleh hukum yang berlaku di Republik Indonesia.</p>
+
+<h2>11. Hubungi Kami</h2>
+<p>Jika Anda memiliki pertanyaan tentang syarat dan ketentuan ini, silakan hubungi kami di:</p>
+<p><strong>Email:</strong> ddapps80@gmail.com</p>
+
+<footer>
+  <p>© 2026 myHalalQuest. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
