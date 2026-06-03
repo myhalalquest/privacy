@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hapus Akun - myHalalQuest</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f9f9f6;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 32px 16px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .logo-area img {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+    }
+    .logo-area span {
+      font-size: 1.2em;
+      font-weight: 700;
+      color: #0A3D1F;
+    }
+    h1 {
+      color: #0A3D1F;
+      font-size: 1.6em;
+      border-bottom: 3px solid #F7DC6F;
+      padding-bottom: 10px;
+      margin-bottom: 24px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+      border: 1px solid #e8e8e8;
+    }
+    .card h2 {
+      color: #145A32;
+      font-size: 1em;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .steps {
+      counter-reset: step;
+      list-style: none;
+      padding: 0;
+    }
+    .steps li {
+      counter-increment: step;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    .steps li::before {
+      content: counter(step);
+      background: #0A3D1F;
+      color: #F7DC6F;
+      font-weight: bold;
+      font-size: 0.85em;
+      min-width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .email-box {
+      background: #f0f7f2;
+      border: 1px solid #c3dfc9;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-top: 12px;
+    }
+    .email-box .label {
+      font-size: 0.8em;
+      color: #666;
+      margin-bottom: 4px;
+    }
+    .email-box .value {
+      font-weight: 700;
+      color: #0A3D1F;
+    }
+    .email-box .subject {
+      font-size: 0.9em;
+      color: #333;
+      margin-top: 6px;
+    }
+    .data-list {
+      list-style: none;
+      padding: 0;
+    }
+    .data-list li {
+      padding: 6px 0;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 0.95em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .data-list li:last-child { border-bottom: none; }
+    .dot-red { color: #e74c3c; font-size: 1.2em; }
+    .dot-yellow { color: #f39c12; font-size: 1.2em; }
+    .badge {
+      display: inline-block;
+      font-size: 0.75em;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+    .badge-deleted { background: #fdecea; color: #c0392b; }
+    .badge-kept { background: #fef9e7; color: #9a7d0a; }
+    .note {
+      font-size: 0.85em;
+      color: #666;
+      margin-top: 8px;
+      padding-left: 4px;
+    }
+    footer {
+      margin-top: 40px;
+      color: #aaa;
+      font-size: 0.8em;
+      text-align: center;
+      border-top: 1px solid #eee;
+      padding-top: 16px;
+    }
+    a { color: #1E7B44; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="logo-area">
+    <span>myHalalQuest</span>
+  </div>
+
+  <h1>Hapus Akun</h1>
+
+  <div class="card">
+    <h2>Cara Mengajukan Penghapusan Akun</h2>
+    <ol class="steps">
+      <li>Kirim email ke alamat berikut:
+        <div class="email-box">
+          <div class="label">Kirim ke</div>
+          <div class="value">myhalalquest@gmail.com</div>
+          <div class="subject">Subjek: <strong>Hapus Akun myHalalQuest</strong></div>
+        </div>
+      </li>
+      <li>Sertakan <strong>alamat email Google</strong> yang terdaftar di akun myHalalQuest kamu di dalam isi email.</li>
+      <li>Tim kami akan memproses permintaan dalam <strong>7 hari kerja</strong> dan mengirimkan konfirmasi ke email kamu.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Data yang Akan Dihapus</h2>
+    <ul class="data-list">
+      <li><span class="dot-red">●</span> Nama tampilan (display name) <span class="badge badge-deleted">Dihapus</span></li>
+      <li><span class="dot-red">●</span> Alamat email <span class="badge badge-deleted">Dihapus</span></li>
+      <li><span class="dot-red">●</span> Foto profil <span class="badge badge-deleted">Dihapus</span></li>
+      <li><span class="dot-red">●</span> Data akun di sistem kami <span class="badge badge-deleted">Dihapus</span></li>
+      <li><span class="dot-yellow">●</span> Submission lokasi yang sudah diverifikasi &amp; ditampilkan <span class="badge badge-kept">Dapat dipertahankan</span></li>
+    </ul>
+    <p class="note">* Data submission lokasi yang sudah terverifikasi dan ditampilkan publik dapat dipertahankan sebagai data komunitas tanpa atribusi akun.</p>
+  </div>
+
+  <div class="card">
+    <h2>Perlu Diketahui</h2>
+    <ul class="data-list">
+      <li>Penghapusan akun bersifat <strong>permanen</strong> dan tidak dapat dibatalkan.</li>
+      <li>Sebagian besar fitur myHalalQuest tetap dapat digunakan tanpa akun setelah penghapusan.</li>
+      <li>Untuk pertanyaan lain seputar data, lihat <a href="/privacy-policy">Kebijakan Privasi</a> kami.</li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2026 myHalalQuest. Semua hak dilindungi.
+  </footer>
+
+</div>
+</body>
+</html>
