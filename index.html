@@ -34,13 +34,14 @@
 </head>
 <body>
 <h1>Kebijakan Privasi (Privacy Policy)</h1>
-<p class="last-updated">Terakhir diperbarui: Juni 2026</p>
+<p class="last-updated">Terakhir diperbarui: 22 Juni 2026</p>
 <p>myHalalQuest ("kami", "aplikasi") berkomitmen untuk melindungi privasi pengguna. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda.</p>
 
 <h2>1. Informasi yang Kami Kumpulkan</h2>
 <p>Aplikasi ini dapat mengumpulkan informasi berikut:</p>
 <ul>
-  <li><strong>Lokasi:</strong> Digunakan untuk menemukan masjid, kuliner halal, hotel, dan destinasi terdekat. Lokasi hanya diakses saat aplikasi digunakan (foreground only).</li>
+  <li><strong>Lokasi:</strong> Digunakan untuk menemukan masjid, kuliner halal, hotel, dan destinasi terdekat, termasuk fitur pencarian (search) berdasarkan kata kunci pada menu kuliner terdekat. Lokasi hanya diakses saat aplikasi digunakan (foreground only).</li>
+  <li><strong>Lokasi saat Submit Tempat: <span class="badge-new">BARU</span></strong> Saat menggunakan fitur "Gunakan Lokasi Saya" pada form Submit Lokasi, aplikasi mengambil koordinat GPS perangkat Anda secara real-time untuk diisikan otomatis ke field koordinat. Koordinat ini hanya digunakan sebagai bagian dari data lokasi yang Anda submit dan tidak disimpan terpisah sebagai riwayat pergerakan Anda. Anda tetap dapat memasukkan koordinat secara manual sebagai alternatif.</li>
   <li><strong>Data akun (jika login): <span class="badge-new">BARU</span></strong> Jika Anda memilih untuk masuk menggunakan Google, kami mengumpulkan nama tampilan, alamat email, dan foto profil dari akun Google Anda. Data ini disimpan di server kami (Supabase) untuk mengidentifikasi akun Anda.</li>
   <li><strong>Konten yang Anda submit: <span class="badge-new">BARU</span></strong> Jika Anda menggunakan fitur Submit Lokasi, informasi yang Anda masukkan (nama tempat, alamat, kategori, keterangan, dll.) akan disimpan di server kami beserta ID akun Anda.</li>
   <li><strong>Data penggunaan:</strong> Informasi anonim tentang fitur yang digunakan, dikumpulkan melalui layanan analitik pihak ketiga.</li>
@@ -50,10 +51,11 @@
 <h2>2. Cara Kami Menggunakan Informasi</h2>
 <ul>
   <li>Menampilkan lokasi halal terdekat berdasarkan posisi pengguna</li>
+  <li>Memproses pencarian (search) dan filter, termasuk filter "Halal Bersertifikat", pada menu kuliner terdekat</li>
   <li>Menampilkan waktu shalat yang akurat sesuai lokasi melalui AlAdhan API</li>
   <li>Menampilkan arah kiblat yang tepat</li>
   <li><strong>Mengidentifikasi akun pengguna</strong> untuk fitur yang memerlukan login, seperti Submit Lokasi</li>
-  <li><strong>Memproses dan memverifikasi</strong> data lokasi yang disubmit oleh pengguna sebelum ditampilkan di aplikasi</li>
+  <li><strong>Memproses dan memverifikasi</strong> data lokasi yang disubmit oleh pengguna sebelum ditampilkan di aplikasi, termasuk koordinat yang diisi otomatis melalui fitur deteksi lokasi GPS</li>
   <li>Meningkatkan kualitas dan performa aplikasi</li>
   <li>Menayangkan iklan yang relevan</li>
 </ul>
@@ -76,7 +78,7 @@
 
 <h2>5. Izin Aplikasi</h2>
 <ul>
-  <li><strong>ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION:</strong> Untuk fitur pencarian lokasi terdekat, kiblat, dan waktu shalat</li>
+  <li><strong>ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION:</strong> Untuk fitur pencarian lokasi terdekat, kiblat, waktu shalat, serta fitur "Gunakan Lokasi Saya" pada form Submit Lokasi</li>
   <li><strong>INTERNET:</strong> Untuk mengambil data lokasi, login, dan menampilkan iklan</li>
   <li><strong>VIBRATE:</strong> Untuk fitur tasbih digital (haptic feedback)</li>
 </ul>
